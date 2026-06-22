@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Демо-сайт клиента — виджет Fizika</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      color: #1a2330;
+      background: #f5f7fa;
+      line-height: 1.55;
+    }
+    header {
+      background: linear-gradient(135deg, #15A06E, #0e7a54);
+      color: #fff;
+      padding: 64px 24px 72px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 12px; font-size: 34px; }
+    header p { margin: 0; font-size: 18px; opacity: .92; }
+    main { max-width: 760px; margin: -40px auto 80px; padding: 0 24px; }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(20,35,55,.08);
+      padding: 32px;
+      margin-bottom: 20px;
+    }
+    .card h2 { margin: 0 0 10px; font-size: 22px; }
+    .muted { color: #5a6b80; }
+    .hint {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 14px;
+      background: #eafaf3;
+      border: 1px solid #bce8d6;
+      border-radius: 10px;
+      color: #0e7a54;
+      font-size: 15px;
+    }
+    footer { text-align: center; color: #8294a8; font-size: 13px; padding: 0 24px 48px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ЖК «Пример» — продажа квартир</h1>
+    <p>Демо-сайт клиента для проверки виджета-консультанта</p>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Это тестовая страница</h2>
+      <p class="muted">
+        Страница имитирует сайт клиента. Внизу справа подключён живой чат-консультант
+        Fizika — тот самый виджет, который партнёр настроил в кабинете.
+      </p>
+      <span class="hint">Нажмите на зелёный кружок чата в правом нижнем углу &rarr; задайте вопрос про планировки или цены.</span>
+    </div>
+    <div class="card">
+      <h2>Что проверяем</h2>
+      <p class="muted">
+        Цвет кнопки и заголовок окна берутся из настроек кабинета (акцент #15A06E,
+        заголовок «Fizika · онлайн-консультант»). Виджет отвечает на вопросы по базе знаний бота.
+      </p>
+    </div>
+    <footer>Демо-страница платформы AI Platform · виджет загружается с fizika.82-97-252-28.sslip.io</footer>
+  </main>
+
+  <!-- Виджет Fizika — сниппет из кабинета (вкладка «Виджет») -->
+  <script src="https://fizika.82-97-252-28.sslip.io/widget/embed.js" data-key="hU6gRIK8Kbkcf9x9NiTURFZETrKES6hp"></script>
+</body>
+</html>
